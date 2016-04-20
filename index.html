@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>John Duong</title>
+  <meta charset="utf-8">
+  <link href='https://fonts.googleapis.com/css?family=Raleway:200' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Lato:300,100' rel='stylesheet' type='text/css'>
+  <link href="css/bootstrap.css" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="css/animate.css">
+  <link rel="stylesheet" type="text/css" href="css/bootstrap-social.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+  <link rel="stylesheet" type="text/css" href="css/custom.css">
+
+</head>
+  <body>
+    <div class="container">
+      <div class="animated fadeInDown delay">
+        <div class="row">
+          <div class="col-md-2 text-center">
+            <div class="logo">JD</div>
+          </div>
+          <div class="col-md-10 text-right text-uppercase">
+            <h1>John Duong</h1>
+            <h3>Web Developer</h3>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-12">
+            <hr>
+          </div>
+        </div>
+      </div>
+      <div class="animated fadeIn feature">
+        <div class="row">
+          <div class="col-md-12">
+            <h2>Featured Work</h2>
+          </div>
+        </div>
+        <div class="row text-center text-uppercase">
+          <div class="col-md-4">
+            <a>
+              <img src="images/riverJump.png" data-toggle="modal" data-target="#project1" class="img-responsive" alt="Bug Run">              
+            </a>
+            <h3>Bug Run</h3>
+            <a class="btn btn-social-icon btn-github" href="https://github.com/tehnuge/bugRun">          
+              <i class="fa fa-github"></i>
+            </a>
+          </div>
+          <div class="col-md-4">
+            <a>
+              <img src="images/movePlanner.png" data-toggle="modal" data-target="#project2" class="img-responsive" alt="Moveplanner">
+            </a>
+            <h3>Move Planner</h3>
+            <a class="btn btn-social-icon btn-github" href="https://github.com/tehnuge/movePlanner">          
+              <i class="fa fa-github"></i>
+            </a>
+          </div>
+          <div class="col-md-4">
+            <img src="http://placekitten.com/555/300" data-toggle="modal" data-target="#project3" class="img-responsive" alt="Analytics">
+            <h3>Podcast Analytics</h3>
+            <a class="btn btn-social-icon btn-github" href="https://github.com/tehnuge/podcastAnalytics">          
+              <i class="fa fa-github"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container-fluid animated fadeInUp about delay">
+      <div class="row">
+        <h2 class="text-center">About</h2>        
+      </div>
+      <div class="row">
+        <img class="my-picture img-responsive" src="images/my_picture.jpg" alt="This is a picture of me">
+      </div>
+      <div class="row text-center col-md-6 col-md-offset-3">
+        <p class="bg-info blurb">John is a web developer with a passion for learning and utilizing new technologies. He knows Javascript (Angular, BackBone, Express, Node) With a previous background in mechanical engineering, he enjoyes solving tough problems and would love to hear
+        about your project. <a href="mailto:jhnduong@gmail.com">Say hello!</a> </p>
+      </div>
+      <div class="row">
+        <div class="col-md-6 col-md-offset-3">
+          <hr>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-4 col-md-offset-4 text-center">
+          <a class="btn btn-social-icon btn-linkedin" href="https://www.linkedin.com/in/john-duong-01b43533">          
+            <i class="fa fa-linkedin"></i>
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Modal -->
+    <div class="modal fade" id="project1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h3 class="modal-title" id="myModalLabel">Bug Run</h3>
+          </div>
+          <div class="modal-body">
+            <a href="frogger/frogger.html">
+              <img class="img-responsive project" src="images/riverJump.png" alt="Bug Run">
+            </a>
+              <p>
+                A Frogger clone, this project was a lesson in object oriented design in Javascript; the main game engine loops and redraws
+                the entire game screen each time it runs. 
+              </p>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+   <!-- Modal 2-->
+    <div class="modal fade" id="project2" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h3 class="modal-title" id="myModalLabel">Move Planner</h3>
+          </div>
+          <div class="modal-body">
+            <a href="movePlanner/movePlanner.html">
+              <img class="img-responsive project" src="images/movePlanner.png" alt="Move Planner">
+            </a>
+              <p>
+                This application uses the Google Maps Streetview, New York Times, and Wikipedia APIs to present information about an area of interest. 
+              </p>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+   <!-- Modal 3-->
+   <div class="modal fade" id="project3" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+     <div class="modal-dialog">
+       <div class="modal-content">
+         <div class="modal-header">
+           <h3 class="modal-title" id="myModalLabel">Podcast Analytics</h3>
+         </div>
+         <div class="modal-body">
+           <a href="">
+             <img class="img-responsive project" src="http://placekitten.com/555/300" alt="Move Planner">
+           </a>
+             <p>
+               Coming soon, but look at how cute that kitty is though! 
+             </p>
+         </div>
+         <div class="modal-footer">
+           <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+         </div>
+       </div>
+     </div>
+    <script type="text/javascript" src="js/jquery-2.2.0.js"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="js/appMain.js"></script>
+</body>
+</html>

@@ -1,0 +1,64 @@
+body {
+	font-family: 'Lato', sans-serif;
+	color: black;
+}
+
+h2 {
+	color: #BCBBBB;
+}
+p {
+	font-size: 1.2em;
+}
+
+.project {
+	margin: 0 auto;
+}
+
+.logo{
+	font-family: 'Raleway';
+	color: black;
+	font-size: 4.5em;
+	margin: 15px;
+	border-top: 15px;
+	outline: 1px solid black;
+}
+
+.delay{
+	animation-delay: 0.5s;
+}
+
+.my-picture {
+  display: block;
+  margin: 20px auto 20px;
+  max-width: 15%;
+  border: 2px solid white;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  border-radius: 50%;
+
+}
+
+.about {
+	background-color: #294860;
+	padding-top: 20px;
+	padding-bottom: 40px;
+	/*visibility: hidden;*/
+}
+.about-after {
+	visibility: visible;
+}
+
+.feature {
+	margin-bottom: 50px;
+	margin-top: 30px;
+}
+
+.blurb {
+	border-radius: 25px;
+	padding: 10px;
+	background-color: #BCBBBB;
+}
+
+.btn-linkedin {
+	background-color: #BCBBBB;
+}
