@@ -8,7 +8,25 @@ h2 {
 }
 p {
 	font-size: 1.2em;
+	margin-top: 10px;
 }
+
+
+.myrow {
+    font-size: 0;
+}
+.myrow > * {
+    float: none;
+    display: inline-block;
+    font-size: 14px; /* if using LESS it's quicker to just use @font-size-base */
+}
+/*.myrow > *:last-child {
+    vertical-align: bottom;
+}*/
+/*.myrow p:last-child {
+    margin-bottom: 0;
+}*/
+
 
 .project {
 	margin: 0 auto;
@@ -23,6 +41,9 @@ p {
 	outline: 1px solid black;
 }
 
+/*.img {
+	outline: 1px solid #BCBBBB;
+}*/
 .delay{
 	animation-delay: 0.5s;
 }
