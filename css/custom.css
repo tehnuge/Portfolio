@@ -10,10 +10,11 @@ p {
 	font-size: 1.2em;
 	margin-top: 10px;
 }
-
-.mainpic {
-	width: 1140px;
-	height: 633.328px;
+@media screen and (min-width: 768px){
+	.mainpic {
+		width: 1140px;
+		height: 633.328px;
+	}	
 }
 .myrow {
     font-size: 0;
