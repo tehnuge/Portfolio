@@ -12,6 +12,7 @@
   <link rel="stylesheet" type="text/css" href="css/bootstrap-social.css">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
   <link rel="stylesheet" type="text/css" href="css/custom.css">
+  <link rel="stylesheet" type="text/css" href="css/simple-slideshow-styles.css">
 
 </head>
   <body>
@@ -46,8 +47,19 @@
         </div>
       </div>
       <div class="row">
-        <div class="col-md-12">
-          <img src="images/ALfrontpg.png" class="img-responsive">
+        <div class="col-md-12 bss1 bss-slides" tabindex="2" data-toggle="modal" data-target="#mainproject">
+          <figure>
+            <img src="images/ALfrontpg.png" class="img-responsive mainpic" width="100%" />
+            <figcaption>alloylearning.org</figcaption>
+          </figure>
+          <figure>
+            <img src="images/AL2.png" class="img-responsive mainpic" width="100%" />
+            <figcaption></figcaption>
+          </figure>
+          <figure>
+            <img src="images/AL3.png" class="img-responsive mainpic" width="100%" />
+            <figcaption>Online quizzes for students</figcaption>
+          </figure>
         </div>
       </div>
       <div class="animated fadeIn feature">
@@ -80,9 +92,9 @@
         </div>
       </div>
     </div>
-    <div class="container-fluid animated fadeInUp about delay">
+    <div class="container-fluid animated about">
       <div class="row">
-        <a name="about"><h2 class="text-center">About</h2></a>        
+        <a name="about"><h2 class="text-center text-uppercase">About</h2></a>        
       </div>
       <div class="row">
         <img class="my-picture img-responsive" src="images/my_picture.jpg" alt="This is a picture of me">
@@ -105,6 +117,32 @@
       </div>
     </div>
 
+    <!-- Modal main project-->
+    <div class="modal fade" id="mainproject" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h3 class="modal-title" id="myModalLabel">Alloy Learning</h3>
+          </div>
+          <div class="modal-body">
+            <a href="http://www.alloylearning.org/">
+              <img class="img-responsive project" src="images/ALfrontpg.png" alt="Alloy Learning">
+            </a>
+              <p>
+                Alloy Learning provides tools for educators to aid in teaching their students; including online quizzes and lesson modules. John's responsibilities for the site include:
+                <ul>
+                  <li>Developing bug fixes in Javascript and Python (Django)</li>
+                  <li>Creation and maintenance of the internal Wiki site (LAMP stack)</li>
+                  <li>Developing new features</li>
+                </ul>
+              </p>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
     <!-- Modal -->
     <div class="modal fade" id="project1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
       <div class="modal-dialog">
@@ -170,6 +208,7 @@
      </div>
     <script type="text/javascript" src="js/jquery-2.2.0.js"></script>
     <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="js/better-simple-slideshow.min.js"></script>
     <script type="text/javascript" src="js/appMain.js"></script>
 </body>
 </html>
