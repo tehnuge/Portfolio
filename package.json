@@ -1,0 +1,24 @@
+{
+  "name": "portfolio",
+  "version": "1.0.0",
+  "description": "John's portfolio site",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tehnuge/Portfolio.git"
+  },
+  "author": "John Duong",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tehnuge/Portfolio/issues"
+  },
+  "homepage": "https://github.com/tehnuge/Portfolio#readme",
+  "devDependencies": {
+    "browser-sync": "^2.12.5",
+    "gulp": "^3.9.1",
+    "gulp-sass": "^2.3.1"
+  }
+}
