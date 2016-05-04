@@ -1,3 +1,16 @@
+//Include Angular
+var myApp = angular.module('myApp', [
+  'ngRoute']);
+
+myApp.config(['$routeProvider',
+  function($routeProvider){
+    $routeProvider.when('/moveplanner', {
+      template: 'moveplanner/moveplanner.html',
+    }).
+    when('/bugrun', {
+      template: ''
+    })
+  }]);
 //OPTIONS for BSS slides
 var opts = {
             //auto-advancing slides? accepts boolean (true/false) or object
